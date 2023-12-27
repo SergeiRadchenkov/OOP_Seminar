@@ -1,6 +1,6 @@
 package Domain;
 
-public class Bottle extends Product{
+public class Bottle extends Product {
     private float bottleVolume;
 
     public Bottle(int price, int place, String name, long id, float bottleVolume) {
