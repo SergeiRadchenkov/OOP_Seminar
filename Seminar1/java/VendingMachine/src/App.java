@@ -40,7 +40,7 @@ public class App {
         for (Product p : vm.getAssort()) {
             System.out.println(p);
         }
-        //MainFrame myFrame = new MainFrame();
-        //myFrame.initialize();
+        MainFrame myFrame = new MainFrame();
+        myFrame.initialize();
     }
 }
