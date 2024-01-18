@@ -17,7 +17,7 @@ public class Student extends Person implements Comparable<Student> {
     }
     @Override
     public String toString() {
-        return "Student [id=" + id + "] " + super.toString();
+        return "\nStudent [id=" + id+ "], " + super.toString();
     }
     @Override
     public int compareTo(Student o) {
@@ -36,7 +36,6 @@ public class Student extends Person implements Comparable<Student> {
         if (o.getId() < id) {
             return 1;
         }
-        
         return 0;
     }
 }
